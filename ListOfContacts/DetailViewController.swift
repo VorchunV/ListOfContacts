@@ -18,8 +18,8 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        phoneNameLabel.text = person.phoneNumber
-        emailLabel.text = person.email
+        phoneNameLabel.text = "Phone number: \(person.phoneNumber)"
+        emailLabel.text = "Email: \(person.email)"
         navigationName.title = person.fullName
         
     }

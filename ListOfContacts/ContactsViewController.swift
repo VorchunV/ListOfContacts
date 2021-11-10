@@ -13,11 +13,6 @@ class ContactsViewController: UITableViewController {
     private let contact = Person.getContactList()
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-    }
     
     // MARK: - Table view data source
     
@@ -31,6 +26,7 @@ class ContactsViewController: UITableViewController {
         let person = contact[indexPath.row]
         var content = cell.defaultContentConfiguration()
         content.text = person.fullName
+    
         cell.contentConfiguration = content
         return cell
     }

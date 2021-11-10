@@ -12,6 +12,7 @@ class DetailViewController: UIViewController {
     @IBOutlet var navigationName: UINavigationItem!
     @IBOutlet var phoneNameLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
+    
     var person: Person!
     
     

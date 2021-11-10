@@ -12,9 +12,7 @@ class OpenContactsViewController: UITableViewController {
     
     private let contact = Person.getContactList()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    
     
     // MARK: - Table view data source
     

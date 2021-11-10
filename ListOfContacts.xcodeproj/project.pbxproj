@@ -15,6 +15,8 @@
 		F8283ECA273BBA3900B548D7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283EC9273BBA3900B548D7 /* ContactsViewController.swift */; };
 		F8283ECC273BBDDD00B548D7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283ECB273BBDDD00B548D7 /* DataManager.swift */; };
 		F8283ECE273BC99100B548D7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283ECD273BC99100B548D7 /* Person.swift */; };
+		F8283ED2273C239100B548D7 /* OpenContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283ED1273C239100B548D7 /* OpenContactsViewController.swift */; };
+		F8283ED4273C560800B548D7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283ED3273C560800B548D7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F8283EC9273BBA3900B548D7 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		F8283ECB273BBDDD00B548D7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		F8283ECD273BC99100B548D7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F8283ED1273C239100B548D7 /* OpenContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenContactsViewController.swift; sourceTree = "<group>"; };
+		F8283ED3273C560800B548D7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 			children = (
 				F8283EB5273BB80800B548D7 /* AppDelegate.swift */,
 				F8283EB7273BB80800B548D7 /* SceneDelegate.swift */,
+				F8283ED1273C239100B548D7 /* OpenContactsViewController.swift */,
 				F8283EC9273BBA3900B548D7 /* ContactsViewController.swift */,
+				F8283ED3273C560800B548D7 /* DetailViewController.swift */,
 				F8283EBB273BB80800B548D7 /* Main.storyboard */,
 				F8283ECB273BBDDD00B548D7 /* DataManager.swift */,
 				F8283ECD273BC99100B548D7 /* Person.swift */,
@@ -148,7 +154,9 @@
 				F8283ECC273BBDDD00B548D7 /* DataManager.swift in Sources */,
 				F8283ECA273BBA3900B548D7 /* ContactsViewController.swift in Sources */,
 				F8283EB6273BB80800B548D7 /* AppDelegate.swift in Sources */,
+				F8283ED2273C239100B548D7 /* OpenContactsViewController.swift in Sources */,
 				F8283EB8273BB80800B548D7 /* SceneDelegate.swift in Sources */,
+				F8283ED4273C560800B548D7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F8283EB6273BB80800B548D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283EB5273BB80800B548D7 /* AppDelegate.swift */; };
 		F8283EB8273BB80800B548D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283EB7273BB80800B548D7 /* SceneDelegate.swift */; };
-		F8283EBA273BB80800B548D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283EB9273BB80800B548D7 /* ViewController.swift */; };
 		F8283EBD273BB80800B548D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8283EBB273BB80800B548D7 /* Main.storyboard */; };
 		F8283EBF273BB80A00B548D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8283EBE273BB80A00B548D7 /* Assets.xcassets */; };
 		F8283EC2273BB80A00B548D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8283EC0273BB80A00B548D7 /* LaunchScreen.storyboard */; };
+		F8283ECA273BBA3900B548D7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283EC9273BBA3900B548D7 /* ContactsViewController.swift */; };
+		F8283ECC273BBDDD00B548D7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283ECB273BBDDD00B548D7 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8283EB2273BB80800B548D7 /* ListOfContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8283EB5273BB80800B548D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8283EB7273BB80800B548D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8283EB9273BB80800B548D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8283EBC273BB80800B548D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8283EBE273BB80A00B548D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8283EC1273BB80A00B548D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8283EC3273BB80A00B548D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8283EC9273BBA3900B548D7 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		F8283ECB273BBDDD00B548D7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				F8283EB5273BB80800B548D7 /* AppDelegate.swift */,
 				F8283EB7273BB80800B548D7 /* SceneDelegate.swift */,
-				F8283EB9273BB80800B548D7 /* ViewController.swift */,
 				F8283EBB273BB80800B548D7 /* Main.storyboard */,
+				F8283ECB273BBDDD00B548D7 /* DataManager.swift */,
+				F8283EC9273BBA3900B548D7 /* ContactsViewController.swift */,
 				F8283EBE273BB80A00B548D7 /* Assets.xcassets */,
 				F8283EC0273BB80A00B548D7 /* LaunchScreen.storyboard */,
 				F8283EC3273BB80A00B548D7 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8283EBA273BB80800B548D7 /* ViewController.swift in Sources */,
+				F8283ECC273BBDDD00B548D7 /* DataManager.swift in Sources */,
+				F8283ECA273BBA3900B548D7 /* ContactsViewController.swift in Sources */,
 				F8283EB6273BB80800B548D7 /* AppDelegate.swift in Sources */,
 				F8283EB8273BB80800B548D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

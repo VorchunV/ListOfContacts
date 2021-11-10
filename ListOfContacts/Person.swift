@@ -23,18 +23,17 @@ struct Person {
 extension Person {
     
     static func getContactList() -> [Person] {
-        let test = DataManager()
+        let person = DataManager()
         var persons: [Person] = []
         
-        let count = test.names.count
-        
-        for i in 0...count-1 {
-            persons.append(Person(name: test.names[i],
-                                  surname: test.surnames[i],
-                                  email: test.emails[i],
-                                  phoneNumber: test.phoneNumbers[i]))
+        let count = person.names.count
+        for index in 0...count-1 {
+            persons.append(Person(name: person.names[index],
+                                  surname: person.surnames[index],
+                                  email: person.emails[index],
+                                  phoneNumber: person.phoneNumbers[index]))
         }
-        
+
     return(persons)
         
     }

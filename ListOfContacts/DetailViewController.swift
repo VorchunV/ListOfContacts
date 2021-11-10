@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
     @IBOutlet var navigationName: UINavigationItem!
     @IBOutlet var phoneNameLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
@@ -22,8 +22,8 @@ class DetailViewController: UIViewController {
         navigationName.title = person.fullName
         
     }
-
-
-   
-
+    
+    
+    
+    
 }

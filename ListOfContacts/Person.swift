@@ -9,8 +9,8 @@ import Foundation
 
 struct Person {
     
-    var name: String
-    var surname: String
+    let name: String
+    let surname: String
     let email: String
     let phoneNumber: String
     
@@ -27,14 +27,17 @@ extension Person {
         var persons: [Person] = []
         
         let count = person.names.count
-        for index in 0...count-1 {
-            persons.append(Person(name: person.names[index],
-                                  surname: person.surnames[index],
-                                  email: person.emails[index],
-                                  phoneNumber: person.phoneNumbers[index]))
+        for index in 0..<count {
+            persons.append(Person(
+                name: person.names[index],
+                surname: person.surnames[index],
+                email: person.emails[index],
+                phoneNumber: person.phoneNumbers[index]
+            )
+            )
         }
-
-    return(persons)
+        
+        return(persons)
         
     }
 }
